@@ -60,7 +60,7 @@ const BANNER_SRC = '/banner.png';
 const TABS = [
   ['maps', 'Layout Maps', IconMap],
   ['quotations', 'Quotations', IconDoc],
-  ['visits', 'Site Visit', IconCamera],
+  // ['visits', 'Site Visit', IconCamera],
 ];
 
 export default function EmployeeHome() {
@@ -248,7 +248,7 @@ export default function EmployeeHome() {
       <main className="li-workspace-main">
         {tab === 'maps' && <MapsTab {...mapsState} />}
         {tab === 'quotations' && <QuotationsTab state={qState} />}
-        {tab === 'visits' && <SiteVisitTab user={user} maps={mapsState.maps} />}
+        {/* {tab === 'visits' && <SiteVisitTab user={user} maps={mapsState.maps} />} */}
       </main>
     </div>
   );
