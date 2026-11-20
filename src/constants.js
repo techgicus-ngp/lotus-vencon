@@ -34,11 +34,11 @@ export const BOOKING_AMOUNT_TIERS = [
 export const PAYMENT_MODES = ['Monthly', 'Seasonal'];
 export const EMI_MONTH_OPTIONS = [18, 24, 35];
 export const DOWN_PAYMENT_OPTIONS = [
-  ['10%', 'Down Payment  10%'],
-  ['15%', '15% — Partial Payment'],
-  ['20%', 'Down Payment  20%'],
-  ['30%', '30% — Agreement'],
-  ['50%', 'Down Payment  50%'],
+  // ['10%', 'Down Payment  10%'],
+  ['20%', '20% -Down Payment'],
+  ['25%', '25% -Down Payment  '],
+  ['30%', '30% -Down Payment'],
+  ['50%', '50% -Down Payment'],
 ];
 
 export const COLLECTIONS = {
