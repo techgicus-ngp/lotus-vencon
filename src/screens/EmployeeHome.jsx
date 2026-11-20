@@ -51,7 +51,7 @@ import { useMemo, useState } from 'react';
 import { useSession } from '../context/SessionContext';
 import MapsTab, { useAllowedMaps } from './MapsTab';
 import QuotationsTab, { useEmployeeQuotations } from './QuotationsTab';
-import SiteVisitTab from './SiteVisitTab';
+// import SiteVisitTab from './SiteVisitTab';
 import { formatCurrency } from '../utils/format';
 import { IconCamera, IconDoc, IconMap } from '../icons';
 
